@@ -1,6 +1,6 @@
-metros = int(input("Quantos metros você deseja: "))
+medida = float(input("Quantos metros você deseja: "))
 
-cent = metros * 100
-mili = metros * 1000
+cm = medida * 100
+mm = medida * 1000
 
-print("Sua metragem em centímetros é de {} e em milimetros é {}!".format(cent, mili))
+print("Sua metragem é de {:.0f}cm e {:.0f}mm!".format(cm, mm))

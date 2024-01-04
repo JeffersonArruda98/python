@@ -1,5 +1,5 @@
-real = int(input("Quantos reais você tem na carteira? "))
+real = int(input("Quantos reais você tem na carteira? R$ "))
 
-div = real / 4.92
+dolar = real / 4.92
 print("Sabendo que a cotação atual é de U$4,92")
-print("A quantia que você tem em Dollar é: {}.".format(div))
+print("Com R$ {:.2f} você tem U$ {:.2f}.".format(real, dolar))
